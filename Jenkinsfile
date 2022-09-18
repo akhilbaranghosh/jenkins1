@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'javac src/Main.java'
+        sh 'java src/Main.java'
       }
     }
 
